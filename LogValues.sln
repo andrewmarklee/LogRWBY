@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogValues", "LogValues\LogValues.csproj", "{E7DD719B-8A0F-4F14-94F0-EE0931B02513}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallLogValues", "CallLogValues\CallLogValues.csproj", "{D7526690-495E-4B4D-B640-44A58EDA9B85}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E7DD719B-8A0F-4F14-94F0-EE0931B02513} = {E7DD719B-8A0F-4F14-94F0-EE0931B02513}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{E7DD719B-8A0F-4F14-94F0-EE0931B02513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7DD719B-8A0F-4F14-94F0-EE0931B02513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7DD719B-8A0F-4F14-94F0-EE0931B02513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7526690-495E-4B4D-B640-44A58EDA9B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7526690-495E-4B4D-B640-44A58EDA9B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7526690-495E-4B4D-B640-44A58EDA9B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7526690-495E-4B4D-B640-44A58EDA9B85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

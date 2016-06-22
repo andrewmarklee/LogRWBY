@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E7DD719B-8A0F-4F14-94F0-EE0931B02513}</ProjectGuid>
+    <ProjectGuid>{DB309E83-8371-4136-8660-23A8B0B8AE4C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LogValues</RootNamespace>
-    <AssemblyName>LogValues</AssemblyName>
+    <RootNamespace>MyGamePlayDatabase</RootNamespace>
+    <AssemblyName>MyGamePlayDatabase</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,7 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp - Copy">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\RWBY_GE\rwby-ge_Data\Managed\Assembly-CSharp - Copy.dll</HintPath>
+      <HintPath>..\LogValues\bin\Debug\Assembly-CSharp - Copy.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,11 +42,11 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\Documents\RWBY\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\RWBY_GE\rwby-ge_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyBaseCharacter.cs" />
+    <Compile Include="MyGameplayDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

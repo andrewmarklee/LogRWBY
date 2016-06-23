@@ -15,4 +15,4 @@ REM ildasm "C:\Users\Andrew\Projects\MyRWBY\LogValues\LogValues\bin\Debug\LogVal
 REM 1>&2 pyUnlabelOutput.txt
 
 REM reset PATH
-set PATH=%oldpath%
+@set PATH=%oldpath%

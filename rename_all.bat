@@ -34,8 +34,8 @@ set file2=RubyLabelsRenamed.il
 call ildasm %fileSrc% /out=%file1%
 call rename_labels %file1% %file2%
 
-
-python insert_gamplayDB_initialize.py
+REM changesevenvolts - need to change
+python insert2.py
 REM %file3%
 
 
